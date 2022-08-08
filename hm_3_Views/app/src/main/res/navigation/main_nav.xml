@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.hm_3_views.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_flagsFragment"
+            app:destination="@id/flagsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_searchFlagsFragment"
+            app:destination="@id/searchFlagsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flagsFragment"
+        android:name="com.example.hm_3_views.fragments.FlagsFragment"
+        android:label="fragment_flags"
+        tools:layout="@layout/fragment_flags" >
+        <action
+            android:id="@+id/action_flagsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFlagsFragment"
+        android:name="com.example.hm_3_views.fragments.SearchFlagsFragment"
+        android:label="fragment_search_flags"
+        tools:layout="@layout/fragment_search_flags" >
+        <action
+            android:id="@+id/action_searchFlagsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

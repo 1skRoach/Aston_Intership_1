@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hm_3_views</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_flags">Show flags</string>
+    <string name="search_a_flag">Search a picture</string>
+    <string name="search_an_image">Search an image</string>
+</resources>
