@@ -1,0 +1,22 @@
+package com.example.pickup_pic.domain.models.photo
+
+import com.example.pickup_pic.domain.models.user.User
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+
+@JsonClass(generateAdapter = true)
+data class Photo(
+    @Json(name = "id") val id: String,
+    @Json(name = "created_at") val createdAt: String,
+    @Json(name = "updated_at") val updatedAt: String,
+    @Json(name = "width") val width: Int,
+    @Json(name = "height") val height: Int,
+    @Json(name = "color") val color: String,
+    @Json(name = "blur_hash") val blurHash: String?,
+    @Json(name = "likes") var likes: Int,
+    @Json(name = "liked_by_user") var likedByUser: Boolean,
+    @Json(name = "description") val description: String?,
+    @Json(name = "user") val user: User,
+    @Json(name = "urls") val url: Url,
+    @Json(name = "links") val link: Link
+)

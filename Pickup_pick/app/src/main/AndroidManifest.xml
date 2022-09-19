@@ -4,7 +4,7 @@
     package="com.example.pickup_pic">
 
 
-     //чтобы открыть интенты, необходимо прописывать queries
+     //if you wanna open up some brosable views u should have this query
     <queries>
         <intent>
             <action android:name="android.intent.action.VIEW" />
@@ -13,18 +13,18 @@
         </intent>
 
         <intent>
-            //открытие браузера
+            //editing browser view
             <action android:name="android.support.customtabs.action.CustomTabsService" />
         </intent>
     </queries>
 
-    //проверка интернета
+    //internet checking
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    //считывание при сохранении в бд
+    //to save in storage
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    //считывание при сохранении в бд
+    //to save in storage
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />

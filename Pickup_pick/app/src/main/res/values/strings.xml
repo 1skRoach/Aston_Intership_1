@@ -30,4 +30,28 @@
     <string name="popular">Order by polular</string>
     <string name="no_internet_connection">No internet connection</string>
     <string name="back">back</string>
+    <string name="username">\@%1$s</string>
+    <string name="retry1">Retry</string>
+    <string name="error_description">Something went wrong. Try again.</string>
+    <string name="made_with">Made with: %1$s</string>
+    <string name="model">Model: %1$s</string>
+    <string name="exposure">Exposure: %1$s</string>
+    <string name="aperture">Aperture: %1$s</string>
+    <string name="focal_length">Focal length: %1$s</string>
+    <string name="iso">ISO: %1$s</string>
+    <string name="about">About \@%1$s:\n%2$s</string>
+    <string name="download">Download</string>
+    <string name="location">Country: %1$s, City: %2$s</string>
+    <string name="tag">Tags: %1$s</string>
+    <string name="nickname">nickname</string>
+    <string name="name">name</string>
+    <string name="feed_photo">Photo</string>
+    <string name="location_icon">location icon</string>
+    <string name="download_count_icon">download count icon</string>
+    <string name="no_connection">no connection</string>
+    <string name="photos">Photos\n%1$d</string>
+    <string name="likes">Likes \n%1$d</string>
+    <string name="collections">Collections \n%1$d</string>
+    <string name="search_text">"Are you looking for something?</string>
+
 </resources>

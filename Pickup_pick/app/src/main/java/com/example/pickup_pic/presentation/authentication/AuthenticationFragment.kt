@@ -14,7 +14,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
-import coil.Coil
 import com.example.pickup_pic.R
 import com.example.pickup_pic.databinding.FragmentAuthenticationBinding
 import com.google.android.material.snackbar.Snackbar
@@ -136,4 +135,8 @@ class AuthenticationFragment : Fragment() {
             .show()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+    }
 }

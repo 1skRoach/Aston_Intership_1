@@ -12,4 +12,7 @@
     <color name="onBoarding_bacground_color1">#F2F0F1</color>
     <color name="onBoarding_bacground_color2">#F5F5F5</color>
     <color name="text_color">#51024A</color>
+    <color name="custom_color_primary">#EEEEEE</color>
+    <color name="grey_light">#C8CBBE</color>
+
 </resources>

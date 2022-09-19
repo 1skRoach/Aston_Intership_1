@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager2.widget.ViewPager2
+import coil.load
 import com.example.pickup_pic.R
 import com.example.pickup_pic.databinding.FragmentFirstBinding
 
@@ -22,6 +23,8 @@ class FirstFragment : Fragment() {
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
 
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
+
+        binding.imageView3.load(R.drawable.logo1)
 
         binding.nextTextView.setOnClickListener {
             viewPager?.currentItem = 1

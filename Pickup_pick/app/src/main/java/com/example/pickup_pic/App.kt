@@ -11,6 +11,7 @@ import javax.inject.Inject
 @HiltAndroidApp
 class App: Application() {
 
+    //для хилта нужно аннотацию в 11 использовать создать этот класс
     override fun onCreate() {
         super.onCreate()
         initTimber()

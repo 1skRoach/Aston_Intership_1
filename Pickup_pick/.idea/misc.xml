@@ -6,22 +6,28 @@
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/gradient.xml" value="0.1225" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/home.xml" value="0.142" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/ic_baseline_download_24.xml" value="0.1225" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/ic_baseline_input_24.xml" value="0.177" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.139" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.169" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.107" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/ic_baseline_thumb_up_off_alt_24.xml" value="0.1225" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/drawable/like.xml" value="0.122" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_authentication.xml" value="0.2" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_first.xml" value="0.264" />
-        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_home.xml" value="0.152" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_logged.xml" value="0.152" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_login.xml" value="0.136" />
-        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_profile.xml" value="0.23645833333333333" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_photo_detail.xml" value="0.264" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_search.xml" value="0.23645833333333333" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_second.xml" value="0.264" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_splash_screen.xml" value="0.2" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_text.xml" value="0.2259963768115942" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_third.xml" value="0.264" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/fragment_view_pager.xml" value="0.176" />
-        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/item_unsplash_photo.xml" value="0.23541666666666666" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/item_unsplash_photo.xml" value="0.8" />
+        <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/load_state.xml" value="0.565" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/layout/toolbar.xml" value="0.2" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.4" />
         <entry key="..\:/Aston/Aston_Intership_1/Pickup_pick/app/src/main/res/menu/feed_toolbar_menu.xml" value="0.15208333333333332" />

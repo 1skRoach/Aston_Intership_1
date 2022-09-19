@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
+import coil.load
 import com.example.pickup_pic.R
 import com.example.pickup_pic.databinding.FragmentThirdBinding
 import kotlinx.coroutines.launch
@@ -27,7 +28,7 @@ class ThirdFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentThirdBinding.inflate(inflater, container, false)
 
-
+        binding.imageView4.load(R.drawable.logo4)
 
         binding.finishView.setOnClickListener {
             findNavController().navigate(R.id.action_viewPagerFragment_to_authenticationFragment2)
